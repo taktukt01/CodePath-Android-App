@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="#b0e0e6"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:id="@+id/flashcard_question"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:textSize ="40sp"
+        android:textColor= "#000000"
+    android:gravity="center"
+    android:text="Who is the 44th President of the United States?"
+
+/>
+<TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize ="40sp"
+        android:gravity="center"
+    android:background ="#003366"
+    android:layout_weight="1"
+    android:textColor="#0715CD"
+    android:text="Barack Obama!"
+    android:layout_below="@id/flashcard_question"
+    />
+    <TextView
+    android:id="@+id/flashcard_answer2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize ="40sp"
+    android:gravity="center"
+        android:background ="#003366"
+        android:text="Donald Trump!"
+        android:layout_weight="1"
+        android:textColor="#0715CD"
+        android:layout_below="@id/flashcard_answer"
+    />
+
+    <TextView
+        android:id="@+id/flashcard_answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background ="#003366"
+        android:textSize ="40sp"
+        android:gravity="center"
+        android:text="Nelson Mandela!"
+        android:layout_weight="1"
+        android:textColor="#0715CD"
+        android:layout_below="@id/flashcard_answer2"
+        />
+</RelativeLayout>
